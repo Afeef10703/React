@@ -1,0 +1,29 @@
+body{
+    background-image: url(./assets/bgr.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+.clock-container{
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    padding: 3px 0px;
+
+}
+.clock{
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 5px 5px black;
+    text-align: center;
+
+    
+}
